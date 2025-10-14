@@ -1,0 +1,152 @@
+.hdopm {
+  text-align: center;
+
+}
+
+.hdopm img {
+  max-width: 984px;
+  width: 100%;
+
+}
+
+.hdopm strong {
+  color: var(--SYS-Primary-primary, rgba(20, 184, 166, 1));
+}
+
+.hdopm p {
+  color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.hdopm h2 {
+  margin-top: 50px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.bgropm {
+
+  margin-top: 90px;
+  background: var(--SYS-Primary-primary, rgba(20, 184, 166, 1));
+  border-radius: 24px;
+
+}
+
+.contentopm {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.image-sectionopm {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.phones-imageopm {
+  max-width: 625.27px;
+  border-radius: 8px;
+}
+
+.text-sectionopm {
+
+  flex: 2;
+  color: white;
+  padding-right: 90px;
+}
+
+.text-sectionopm p {
+
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.titleopm {
+  margin-bottom: 20px;
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.descriptionopm {
+  color: var(--SYS-Primary-on-primary, rgba(255, 255, 255, 1));
+
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.descriptionopm li {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .phones-imageopm {
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .contentopm {
+    margin-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .bgropm {
+    margin-top: 20px;
+  }
+
+  .text-sectionopm {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  .text-sectionopm {
+    text-align: left;
+  }
+
+  .descriptionopm {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+}

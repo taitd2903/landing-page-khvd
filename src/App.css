@@ -1,0 +1,51 @@
+/* CSS cho nút cuộn lên đầu */
+
+.scroll-to-top {
+  z-index: 20;
+    position: fixed;
+    right: 20px;
+    bottom: 88px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: black;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  
+  .scroll-to-top.show {
+    display: flex;
+  }
+  
+
+  .chat-buttonsc {
+    z-index: 20;
+    text-decoration: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #00bfa5;
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .chat-buttonsc.show {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  

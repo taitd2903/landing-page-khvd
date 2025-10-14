@@ -1,0 +1,231 @@
+.bgrctnglt{
+    background: rgba(232, 248, 246, 1);
+    max-height: 630px;
+    margin-bottom: 300px;
+}
+.containertopglt{
+    text-align: center;
+ 
+
+
+}
+
+.containertopglt h2{
+    padding-top: 60px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.containertopglt span{
+    color: rgba(20, 184, 166, 1);
+}
+.containertopglt p{
+    margin: 30px 0px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+
+}
+.buttongeolocation{
+    color: white;
+    width: Hug (213px)px;
+    height: Hug (40px)px;
+    min-height: 40px;
+    max-height: 40px;
+padding: 8px 36px;
+   border: 0px;
+    border-radius: 8px;
+ 
+    background: var(--Primary-Cyan-primary, rgba(20, 184, 166, 1));
+
+
+}
+.imgautoglt{
+    margin-top:30px;
+    text-align: center;
+}
+.geolocationimg{
+    width: 100%;
+}
+
+  
+ .section-devices h2 {
+  margin-top: 70px;
+
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+  }
+
+  .device-options {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  
+  .device-option {
+    width: 30%;
+  }
+  
+  .device-option img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .device-option h3 {
+    color: var(--SYS-Primary-on-primary-container, rgba(6, 55, 50, 1));
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+  }
+  
+  .device-option p {
+    font-size: 17px;
+    color: #555;
+  }
+
+
+@media (max-width: 1024px) {
+  .bgrctnglt {
+    max-height: auto;
+    margin-bottom: 70px;
+   
+  }
+
+  .containertopglt h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .containertopglt p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 10px;
+  }
+
+ 
+
+  .imgautoglt {
+    margin-top: 20px;
+  }
+
+  .geolocationimg {
+    width: 90%;
+  }
+
+  .section-devices h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .device-options {
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+  }
+
+  .device-option {
+    width: 80%;
+  
+  }
+
+
+  .device-option h3 {
+    font-size: 20px;
+  }
+
+  .device-option p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .containertopglt h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .containertopglt p {
+    font-size: 14px;
+    margin: 10px 5px;
+  }
+
+ 
+
+  .geolocationimg {
+    width: 100%;
+  }
+
+  .section-devices h2 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+
+
+  .device-option h3 {
+    font-size: 20px;
+  }
+
+  .device-option p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+.magin0pro p{ 
+  margin-bottom: 0px;
+}
+
+  .containertopglt h2 {
+    font-size: 33px;
+    line-height: 38px;
+  }
+
+  .containertopglt p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+
+  .device-options {
+    gap: 15px;
+  }
+
+  .device-option {
+    width: 100%;
+  }
+
+
+
+  .device-option h3 {
+    font-size: 20px;
+  }
+
+  .device-option p {
+    font-size: 17px;
+  }
+}

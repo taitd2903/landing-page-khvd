@@ -1,0 +1,94 @@
+.clftmg {
+    padding-left: 50px !important;
+}
+
+.colorpft p {
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+.colorpft a{
+    text-decoration: none;
+ }
+
+
+.colorpft h5 {
+    color: var(--Sys-On-surface-on-surface, rgba(30, 32, 36, 1));
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.colorpft h4 {
+    color: var(--Sys-On-surface-on-surface, rgba(30, 32, 36, 1));
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.clftmg a {
+    text-decoration: none;
+}
+
+.colorpft h5 {
+    color: var(--Sys-On-surface-on-surface, rgba(30, 32, 36, 1));
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.colorpft h4 {
+    color: var(--Sys-On-surface-on-surface, rgba(30, 32, 36, 1));
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+@media (max-width: 700px) {
+
+    .clftmg {
+        padding-left: 0px !important;
+    }
+
+
+}
+
+footer a:hover {
+  color:rgb(100, 197, 187) !important ;
+ 
+}
+
+footer a:hover p {
+  color:rgb(100, 197, 187) !important  ; 
+}
+

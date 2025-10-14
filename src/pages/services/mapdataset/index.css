@@ -1,0 +1,27 @@
+.datah2{
+ margin-top: 70px;
+ margin-bottom: 30px;
+font-size: 34px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.datap{
+
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
+}
+
+.dataimg{
+    max-width: 1440px;
+    width: 100%;
+}

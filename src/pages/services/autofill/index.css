@@ -1,0 +1,113 @@
+.bgrctn{
+    background: rgba(232, 248, 246, 1);
+    max-height: 630px;
+    margin-bottom: 304px !important;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.containertopatf{
+    text-align: center;
+ 
+
+
+}
+.textpct{
+    text-align: center;
+}
+.containertopatf h2{
+    padding-top: 60px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.containertopatf span{
+    color: rgba(20, 184, 166, 1);
+}
+.containertopatf p{
+margin: 30px 0px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+   
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+
+}
+.containertopatf button{
+    color: white;
+    width: Hug (213px)px;
+    height: Hug (40px)px;
+    min-height: 40px;
+    max-height: 40px;
+padding: 8px 36px;
+   border: 0px;
+    border-radius: 8px;
+ 
+    background: var(--Primary-Cyan-primary, rgba(20, 184, 166, 1));
+
+
+}
+.imgautofill{
+    margin-top:30px;
+    text-align: center;
+}
+.atfimg{
+    max-width: 720px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .bgrctn{
+        background: rgba(232, 248, 246, 1);
+        max-height: 630px;
+        margin-bottom: 200px !important;
+   
+        
+    }
+    .proatfsd{
+        display: block; 
+        margin-bottom: -70px;
+        margin-top: -10px;
+        
+    }
+.containertopatf h2{
+    font-size: 34px;
+}
+.containertopatf p{
+   margin-top: 70px;
+}
+
+}
+
+@media (max-width: 470px) {
+    .bgrctn{
+        background: rgba(232, 248, 246, 1);
+        max-height: 630px;
+        margin-bottom: 100px !important;
+   
+        
+    }
+    .proatfsd{
+        display: block; 
+        margin-bottom: -70px;
+        margin-top: -10px;
+        
+    }
+.containertopatf h2{
+    font-size: 34px;
+}
+.containertopatf p{
+   margin-top: 70px;
+}
+
+}

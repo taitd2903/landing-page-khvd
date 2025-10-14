@@ -1,0 +1,262 @@
+
+.container {
+  font-family: Arial, sans-serif;
+
+}
+
+.section-3d, .section-devices {
+  margin-bottom: 40px;
+}
+.section-3d{
+margin-top :30px ;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover .faq-question {
+
+
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.faq-icon {
+  font-size: 18px;
+  color: #666;
+  margin-left: 10px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+.highlighted {
+  color: black; 
+  font-weight: bold;
+}
+.faq-answer {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  opacity: 0.8;
+  color: black;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s;
+}
+.section-3d h2, .section-devices h2 {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.img3dpro {
+  width: 100%;
+}
+
+.content-3d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  width: 50%;
+  padding-right: 30px;
+margin-left: 30px;
+}
+
+.text-content h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+  margin: 10px 0;
+}
+
+.slide-text {
+  text-align: justify;
+  line-height: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  font-size: 15px;
+  color: rgba(50, 54, 49, 1);
+  max-width: 470px;
+}
+
+.slide-text.open {
+  max-height: 200px; 
+  border-bottom: 1px solid black;
+}
+
+.device-options {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+}
+
+.device-option {
+  width: 25%;
+}
+
+.device-option img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.device-option h3 {
+  color: var(--SYS-Primary-on-primary-container, rgba(6, 55, 50, 1));
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.device-option p {
+  font-size: 17px;
+  color: #555;
+}
+
+
+@media (max-width: 1024px) {
+  .content-3d {
+    flex-direction: column; 
+margin: 0 auto;
+  }
+
+  .text-content {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .img3dpro {
+    
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .device-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .device-option {
+    width: 80%; 
+    margin-bottom: 20px;
+  }
+}
+.faq-answer {
+font-size: 15px !important;
+}
+
+@media (max-width: 768px) {
+  .section-devices{
+    margin-bottom: 0px;
+  }
+  .section-3d h2, .section-devices h2 {
+    margin-top: 28px;
+    font-size: 34px;
+    margin-bottom: 28px;
+  }
+.section-3d{
+  margin: 0px;
+}
+  .text-content h3 {
+  
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+  }
+
+  .slide-text {
+    font-size: 17px;
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+  .text-content{
+    margin-left: 0px;
+  }
+  .magin0pro,  .magin0pro p{
+    margin-bottom: 0px;
+  }
+  .container {
+    padding: 10px;
+  }
+
+  .section-3d h2, .section-devices h2 {
+    font-size: 34px;
+  }
+
+  .device-option {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+  }
+
+  .device-option img {
+    width: 40px; /* Thu nhỏ icon */
+  }
+
+  .device-option h3 {
+    font-size: 20px;
+  }
+
+
+}

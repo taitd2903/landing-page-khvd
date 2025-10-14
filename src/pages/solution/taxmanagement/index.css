@@ -1,0 +1,191 @@
+/* CSS gốc giữ nguyên */
+.textthue h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  .ullithue {
+    text-align: center;
+  }
+  
+  .textthue li {
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+
+    width: 1128px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .imgthuem{
+    max-width: 1130px;
+   width: 100%;  
+  }
+ .img123th{
+    max-width: 475px;
+    width: 100%;  
+  }
+
+  .imgthue {
+    margin-top: -50px;
+    text-align: center;
+    margin-bottom: 160px;
+  }
+  
+  .taxdiv-banner-container {
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--REF-Primary-100, rgba(232, 248, 246, 1));
+    padding: 80px 20px;
+    border-radius: 20px;
+  }
+  
+  .taxdiv-banner-content {
+    max-width: 50%;
+  }
+  
+  .taxdiv-banner-content h2 {
+    font-family: Inter;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  .taxdiv-banner-content p {
+    color: rgba(33, 33, 33, 1);
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+
+  
+
+  @media (max-width: 1024px) {
+    .textthue h2 {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+  
+    .textthue li {
+      width: auto; 
+      font-size: 15px;
+      line-height: 22px;
+    }
+  
+    .imgthue {
+      margin-top: 0;
+      margin-bottom: 100px;
+      
+    }
+  
+    .taxdiv-banner-container {
+      margin: 40px;
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .taxdiv-banner-content {
+      max-width: 90%;
+      text-align: center;
+    }
+  
+    .taxdiv-banner-content h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    .taxdiv-banner-content p {
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+    }
+  
+    .taxdiv-banner-image {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .textthue h2 {
+        margin-top: 20px;
+      font-size: 24px;
+      line-height: 28px;
+    }
+  
+    .textthue li {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .taxdiv-banner-container {
+      padding: 40px 10px;
+      margin: 20px;
+    }
+  
+    .taxdiv-banner-content h2 {
+      font-size: 24px;
+    }
+  
+    .taxdiv-banner-content p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .textthue h2 {
+      font-size: 34px;
+    }
+  
+    .textthue li {
+      font-family: Inter;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  
+    .taxdiv-banner-container {
+      padding: 20px;
+      margin: 10px;
+    }
+  
+    .taxdiv-banner-content h2 {
+      font-size: 34px;
+    }
+  
+    .taxdiv-banner-content p {
+      font-size: 17px;
+      line-height: 25px;
+      color: rgba(33, 33, 33, 1);
+
+    }
+  }
+  

@@ -1,0 +1,71 @@
+.btnstv {
+    padding: 12px 34px;
+    background-color: var(--SYS-Primary-primary, rgba(20, 184, 166, 1));
+
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    max-width: 290px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+.pcenter {
+    max-width: 560px;
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.mgtsvt {
+    margin-top: 50px;
+
+
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btnstv a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .mgtsvt {
+        line-height: 46px;
+        font-size: 32px;
+    }
+
+    .btnstv {
+        margin-top: 16px;
+        margin-bottom: 43px;
+    }
+}

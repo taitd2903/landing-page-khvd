@@ -1,0 +1,301 @@
+  .cardmap {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 20px auto;
+      max-width: 960px;
+      position: relative;
+      height: 416px;
+  }
+.hours p span{
+ float: right;   
+}
+  .detailsmapall {
+      width: 60%;
+      height: 416px !important;
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background: #ffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .detailsmapall::-webkit-scrollbar {
+      width: 6px;
+      background-color: transparent;
+  }
+
+  .detailsmapall::-webkit-scrollbar-track {
+      border: none;
+      background: transparent;
+  }
+
+  .detailsmapall::-webkit-scrollbar-thumb {
+      background-color: #bcbcbc;
+      border-radius: 8px;
+      border: none;
+  }
+
+  .mapbrd {
+      border: 1px solid rgba(204, 209, 217, 1);
+      border-radius: 12px;
+      padding: 12px;
+  }
+
+
+  .detailsmapall img {
+      width: 100%;
+
+
+  }
+
+  .detailsmap {
+      padding: 0 15px;
+      margin-bottom: 20px;
+      
+  }
+
+  .detailsmap h2 {
+      color: var(--Sys-On-surface-on-surface-high, rgba(15, 16, 18, 1));
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+  }
+
+  .detailsmap p {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.52px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+  }
+
+  .infomap {
+      margin-top: 10px;
+      margin-bottom: 0px !important;
+  }
+
+  .infomap p {
+      margin-bottom: 8px !important;
+
+  }
+
+  .infomap strong {
+      color: var(--Sys-On-surface-on-surface, rgba(30, 32, 36, 1));
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 18px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+
+  }
+
+  .status {
+      color: var(--Primary-Cyan-primary, rgba(20, 184, 166, 1));
+
+      font-size: 14px !important;
+      font-weight: 400 !important;
+      cursor: pointer;
+      display: inline-block;
+      transition: color 0.3s;
+  }
+
+  .closed {
+      margin-bottom: 0px !important;
+  }
+
+  .status .link {
+
+      color: red;
+
+  }
+
+  .hours {
+
+      padding: 10px;
+      border-radius: 8px;
+
+
+  }
+
+  .hours p {
+      margin-bottom: 10px !important;
+      font-size: 14px;
+  }
+
+  .map {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eef4f9;
+      position: relative;
+      z-index: 1;
+  }
+
+  .callmap {
+      font-size: 14px !important;
+      color: black;
+      font-weight: 600 !important;
+      font-family: Inter;
+      font-weight: 600;
+      line-height: 18px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+
+  }
+  .callmap a{
+    text-decoration: none; 
+    color: black;
+font-family: Inter;
+font-size: 13px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  .closedmap{
+    width: 20px !important ;
+    top: 100px !important;
+}
+  .callmap img{
+    width: 20px;
+  }
+  .callmapw img{
+    width: 20px;
+  }
+  .callmapw a {
+      font-size: 14px !important;
+      text-decoration: none !important;
+      color: black;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: 18px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+  }
+  .centermapstr{
+    
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700 !important;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+  }
+  .callmap{
+    padding-top: 10px;
+    border-top: 1px solid rgba(204, 209, 217, 1);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(204, 209, 217, 1);
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #000; /* Tô đen */
+    font-weight: 900 !important;
+ 
+  
+  }
+  .highlight span{
+    font-weight: bold;
+    color: #000; 
+    font-weight: 900 !important;
+ 
+  
+    }
+  
+
+  @media (max-width: 768px) {
+    .cardmap {
+        height: auto;
+        max-width: 100%;
+        margin: 0px;
+    }
+  
+    .detailsmapall {
+        width: 55%;
+        height: 100%;
+    }
+  
+    .map {
+        width: 45%;
+        height: auto;
+    }
+  
+    .detailsmap {
+        padding: 10px;
+    }
+  
+    .detailsmap h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+  
+    .detailsmap p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+  
+    .status {
+        font-size: 12px !important;
+    }
+  
+    .callmap {
+        font-size: 13px !important;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+  
+    .callmap img,
+    .callmapw img,
+    .closedmap {
+        width: 16px !important;
+    }
+  
+    .hours {
+        padding: 8px;
+    }
+  
+    .hours p {
+        font-size: 13px;
+    }
+  
+    .infomap strong {
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 568px) {
+    .detailsmapall {
+        width: 60%;
+    }
+  }

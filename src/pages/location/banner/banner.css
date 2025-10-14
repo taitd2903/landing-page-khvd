@@ -1,0 +1,152 @@
+.location-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bgrclmap {
+    background-color: #eafaf7;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.contentmap {
+    flex: 1;
+    max-width: 60%;
+    padding-right: 20px;
+}
+.titlemap {
+    margin-left: 10px;
+    font-size: 44px;
+    font-weight: bold;
+    color: var(--Primary-Cyan-primary, rgba(20, 184, 166, 1));
+    margin-bottom: 10px;
+    
+}
+.descriptionmap li {
+    text-align: justify;
+    max-width: 480px;
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.map-button,
+.contact-button {
+    padding: 8px 64px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.map-button {
+    background-color: #00bfa5;
+    color: white;
+}
+.contact-button {
+    background-color: white;
+    color: #00bfa5;
+    border: 1px solid #00bfa5;
+}
+.illustration {
+    width: 100%;
+}
+.maphomeh2 {
+    margin-top: 70px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.ingctn {
+    place-items: center;
+}
+.mapmap {
+    width: 100%;
+    margin-bottom: 70px;
+}
+@media (max-width: 1440px) {
+    .map-button,
+    .contact-button {
+        width: 100%; 
+        padding: 12px 20px; 
+        font-size: 14px; 
+    }
+    .titlemap {
+        margin-top: 20px;
+        font-size: 36px; 
+        text-align: center; 
+        margin-left: 0;
+    }
+
+}
+@media (max-width: 1024px) {
+    .location-section {
+        flex-direction: column; 
+        align-items: flex-start; 
+        justify-content: center; 
+    }
+
+    .contentmap {
+        max-width: 100%; 
+        padding-right: 0; 
+    }
+
+    .titlemap {
+        margin-top: 20px;
+        font-size: 36px; 
+        text-align: center; 
+        margin-left: 0;
+    }
+
+    .descriptionmap li {
+        max-width: 100%; 
+    }
+
+    .buttons {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .map-button,
+    .contact-button {
+        width: 100%; 
+        padding: 12px 20px; 
+        font-size: 14px; 
+    }
+
+    .maphomeh2 {
+        font-size: 28px; 
+        margin-top: 50px;
+    }
+
+    .illustration {
+        max-width: 100%; 
+        margin: 0 auto; 
+        place-items: center;
+    }
+
+    .mapmap {
+        margin-bottom: 50px; 
+    }
+    
+    .image-container{
+        text-align: center;
+        width: 100%;
+    }
+    .illustration{
+        max-width: 532px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .titlemap {
+        font-size: 28px; 
+    }
+
+    .map-button,
+    .contact-button {
+        font-size: 12px; 
+    }
+}

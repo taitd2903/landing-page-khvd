@@ -1,0 +1,13 @@
+version: "3"
+services:
+  streetview-landingpage:
+    hostname: streetview-landing-page
+    image: streetview-landingpage:latest
+    ports:
+      - "10.11.2.184:3005:80"
+    restart: always
+    networks:
+      - maps-network
+networks:
+  maps-network:
+    external: true

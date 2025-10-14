@@ -1,0 +1,243 @@
+
+
+.ideal-location-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.imgunboj img{
+    max-width: 552px;
+    width: 100%;
+}
+.contentproo {
+    max-width: 50%;
+    text-align: left;
+}
+
+.titleobj {
+  text-align: left;
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+ 
+    margin-bottom: 20px;
+    margin-top: 67px;
+}
+
+
+
+.buttonsideal {
+    display: flex;
+    gap: 30px;
+}
+
+.btnideal {
+    width: 250px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btnideal.explore {
+    background-color: var(--Primary-Cyan-primary, rgba(20, 184, 166, 1));
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btnideal.contact {
+    background-color: white;
+    color: var(--Primary-Cyan-primary, rgba(20, 184, 166, 1));
+    border: 1px solid rgba(20, 184, 166, 1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.map-illustration {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.mainideal {
+    text-align: center;
+}
+
+.mainideal h2 {
+    margin-top: 60px;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.mainideal h3{
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.mainideal p {
+    margin-bottom: 40px;
+    color: var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1));
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.mainideal img {
+    max-width: 743px;
+    width: 100%;
+}
+.objctnid{
+    padding-top: 0px !important;
+}
+
+
+
+@media (max-width: 1024px) {
+    .ideal-location-container {
+        gap: 30px;
+    }
+
+    .contentproo {
+        max-width: 60%;
+    }
+
+    .titleobj {
+        font-size: 40px;
+    }
+
+    .btnideal {
+        width: 220px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .ideal-location-container {
+        gap: 50px;
+    }
+
+    .contentproo {
+        max-width: 45%;
+    }
+
+    .titleobj {  
+        font-size: 38px;
+    }
+
+    .btnideal {
+        width: 260px;
+        
+    }
+}
+@media (max-width: 768px) {
+    .mainideal{
+        margin-bottom: 28px;
+    }
+    .objctnid{
+        padding-bottom: 0px !important;
+    }
+
+    .ideal-location-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contentproo {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .titleobj {
+        font-size: 36px;
+        margin-top: 12px;
+    }
+
+  .mainideal h2{
+    margin-top: 32px;
+  }
+
+  
+  .mainideal p{
+    margin-bottom: 0px;
+    }
+
+    .buttonsideal {
+        justify-content: center;
+    }
+
+    .btnideal {
+        width: 200px;
+    }
+
+    .map-illustration {
+        max-width: 100%;
+    }
+}
+@media (max-width: 458px) {
+    .ideal-location-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contentproo {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .titleobj {
+        font-size: 34px;
+     
+    }
+
+    .description li{
+        font-size: 16px;
+    }
+
+    .buttonsideal {
+        justify-content: center;
+    }
+
+    .btnideal {
+        width: 200px;
+    }
+
+    .map-illustration {
+        max-width: 100%;
+    }
+    .btnideal {
+        width: 250px;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+}

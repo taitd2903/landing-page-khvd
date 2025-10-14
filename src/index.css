@@ -1,0 +1,31 @@
+* {
+  font-family: 'Inter', Arial, sans-serif; /* Font chính là Inter, Arial dự phòng */
+
+
+}
+
+
+
+#nprogress .bar {
+  background: #14B8A6 !important;
+
+  position: absolute;      
+  
+}
+
+
+/* .custom-scroll-bar::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-track {
+  border: none;
+  background: transparent;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  background-color: #bcbcbc;
+  border-radius: 8px;
+  border: none;
+} */

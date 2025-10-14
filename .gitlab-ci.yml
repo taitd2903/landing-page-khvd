@@ -1,0 +1,32 @@
+variables:
+  GIT_SSL_NO_VERIFY: "true"
+  DOCKER_DRIVER: overlay2
+
+image:
+  name: docker/compose
+
+services:
+  - docker:dind
+
+stages:
+  - build
+  - deploy
+
+build prod:
+  stage: build
+  tags:
+    - streetviewvn-vps-client
+  script:
+    - docker build . -t streetview-landingpage:latest
+  only:
+    - main
+
+deploy prod:
+  stage: deploy
+  tags:
+    - streetviewvn-vps-client
+  script:
+    - docker-compose -f docker-compose.yml down
+    - docker-compose -f docker-compose.yml up -d
+  only:
+    - main

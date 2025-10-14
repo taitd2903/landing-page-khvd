@@ -1,0 +1,331 @@
+.map-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+
+.map-section {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+
+.map-text {
+  margin-top: 40px;
+  margin-right: 70px;
+  flex: 1;
+  max-width: 50%;
+
+  margin-left: -68px;
+}
+
+.map-text h2 {
+
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.map-text p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+
+
+
+}
+
+
+.map-images {
+  position: relative;
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper .image-caption {
+  width: 200px;
+  padding: 15px;
+  position: absolute;
+  bottom: 100px;
+  left: 330px;
+  background-color: white;
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.image-overlay {
+  position: absolute;
+  top: 70%;
+  right: 2%;
+
+}
+
+.image-overlay img {
+  max-width: 340px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption-overlay {
+  position: absolute;
+  width: 230px;
+  text-align: center;
+  bottom: 50px;
+  left: -210px;
+  background-color: white;
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.content-wrapperstt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+
+}
+
+.text-contentstt {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 80px;
+
+}
+
+.text-contentstt h1 {
+
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: -0.01em;
+  text-align: right;
+
+
+}
+
+.text-contentstt p {
+
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 550px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+
+
+
+}
+
+.prostaticimg {
+  width: 100%;
+}
+
+.image-contentstt {
+  flex: 1;
+  min-width: 300px;
+}
+
+.wrappersttimng {
+  max-width: 570px;
+  width: 100%;
+}
+
+.sttmmtx h2{
+max-width: 400px;
+}
+
+
+@media (max-width: 1400px) {
+  .stvimgctstt {
+    margin-left: 70px;
+  }
+
+
+}
+
+@media (max-width: 1300px) {
+  .map-text {
+    margin-top: 40px;
+    margin-right: 70px;
+    flex: 1;
+    max-width: 50%;
+    margin-left: 0px;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  .stvimgctstt {
+    margin-left: 0px;
+  }
+  .sttmmtx h2{
+    max-width: 100vh;
+    }
+    
+  .wrappersttimng {
+    max-width: 570px;
+    width: 90%;
+  }
+
+  .map-section {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .text-contentstt h1 {
+    text-align: center;
+  }
+
+  .map-text {
+    margin-left: 0;
+    margin-right: 0px;
+    max-width: 100%;
+    text-align: center;
+
+  }
+
+
+  .map-text p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .map-images {
+    max-width: 80%;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .image-wrapper img {
+    max-width: 90%;
+    width: auto;
+  }
+
+  .image-wrapper .image-caption {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .image-overlay {
+    top: auto;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+  }
+
+  .image-caption-overlay {
+    position: static;
+    margin-top: 15px;
+    transform: none;
+  }
+
+  .content-wrapperstt {
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .map-info-container {
+    padding: 15px;
+  }
+
+
+
+
+
+  .text-contentstt {
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: -60px;
+  }
+
+
+
+  .text-contentstt p {
+    font-size: 13px;
+  }
+
+  .image-contentstt {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .map-section {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+  }
+
+  .magin0pro p {
+    margin-bottom: 42px;
+  }
+
+  .magin0pro {
+    margin-top: 28px;
+  }
+
+
+
+  .image-wrapper img {
+    max-width: 100%;
+  }
+
+  .image-wrapper .image-caption,
+  .image-caption-overlay {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
