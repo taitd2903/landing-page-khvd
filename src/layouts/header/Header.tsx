@@ -208,7 +208,7 @@ const Header: React.FC = () => {
       <nav className="header-menu">
         <div className="header-logo">
           <Link to="/">
-            <img src="/assets/Logostreetview.svg" alt="Logo" className="header-logo-image" />
+            <img src="https://yasuda-method.com/wp/wp-content/themes/yasuda/images/common/logo.svg" alt="Logo" className="header-logo-image" />
           </Link>
         </div>
 
@@ -278,7 +278,7 @@ const Header: React.FC = () => {
       </nav>
 
       <Link to="/">
-        <img src="/assets/Logostreetview.svg" alt="Logo" className="header-logo-image-mobile" />
+        <img src="https://yasuda-method.com/wp/wp-content/themes/yasuda/images/common/logo.svg" alt="Logo" className="header-logo-image-mobile" />
       </Link>
       <Button
         className="menu-button"
@@ -304,7 +304,7 @@ const Header: React.FC = () => {
       >
         <a href="/">
           <img
-            src="/assets/Logostreetview.svg"
+            src="https://yasuda-method.com/wp/wp-content/themes/yasuda/images/common/logo.svg"
             alt="Logo"
             className="header-logo-image-mobile"
           />

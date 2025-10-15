@@ -142,28 +142,28 @@ const ContactPage = () => {
        
         <div className="contact-info">
           <div className="company-info">
-            <Title level={3}>{t('Công ty TNHH Công Nghệ 44+')}</Title>
+            <Title level={3}>{t('Vovinam Thân-Tâm')}</Title>
             <Paragraph>
             {t('Chúng tôi tạo ra những sản phẩm công nghệ mới lạ với cấu trúc khác biệt hoàn toàn. Sứ mệnh của chúng tôi xây dựng không gian internet Việt Nam an toàn, mở và miễn phí.')}  
             </Paragraph>
             <Paragraph  className="no-hover prohvclx">
-              <a href="https://www.streetview.vn/?lat=21.032796623&lng=105.788024983&picId=e213daed-3ae2-4259-940b-444a4056c101&yaw=279&pitch=30" target="_blank" > <img src="/assets/location.png" alt="Bản đồ địa chỉ" /> {t('Tòa nhà 44+, 12/1 Dịch Vọng Hậu, Cầu Giấy, Hà Nội')}</a>
+              <a href="https://www.streetview.vn/?lat=21.032796623&lng=105.788024983&picId=e213daed-3ae2-4259-940b-444a4056c101&yaw=279&pitch=30" target="_blank" > <img src="/assets/location.png" alt="Bản đồ địa chỉ" /> {t('Nhà thi đấu Bắc Từ Liêm, P. Võ Quý Huân, Phúc Diễn, Bắc Từ Liêm, Hà Nội')}</a>
              
             </Paragraph>
             <Paragraph className="no-hover prohvclx">
-              <a href="tel:+84.777.005.444"><img src="/assets/call.png" /> +84.777.005.444</a>
+              <a href="tel:+84.333.020.903"><img src="/assets/call.png" /> +84.333.020.903</a>
             </Paragraph>
     
             <Paragraph  className="no-hover prohvclx ">
-              <a href="#" target="_blank"> <img src="/assets/Vector1.png"  /> contact@44plus.vn </a>
+              <a href="#" target="_blank"> <img src="/assets/Vector1.png"  /> taitd2903@gmail.com </a>
              
             </Paragraph>
-            <Paragraph  className="no-hover prohvclx ">
+            {/* <Paragraph  className="no-hover prohvclx ">
               <a href="https://www.streetview.vn/" target="_blank"> <img src="/assets/map.png"  /> https://www.streetview.vn/</a>
              
-            </Paragraph>
+            </Paragraph> */}
             <Paragraph  className="no-hover prohvclx">
-              <a href="https://44plus.vn/" target="_blank"> <img src="/assets/globe.png"  /> 44plus.vn</a>
+              <a href="https://www.facebook.com/vovinamthantam/" target="_blank"> <img src="/assets/globe.png"  /> Vovinam Thân Tâm</a>
              
             </Paragraph>
           </div>

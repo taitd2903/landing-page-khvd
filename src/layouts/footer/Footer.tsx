@@ -17,7 +17,7 @@ const Footer = () => {
               to="/"
               className={isActiveLink("/") ? "active" : ""}
               onClick={() => window.scrollTo(0, 0)}
-            >   <img src="/assets/Logostreetview.png" alt="Streetview.vn" style={{ width: '150px', marginRight: '10px'}} /></Link>
+            >   <img className="imgftpro" src="https://yasuda-method.com/wp/wp-content/themes/yasuda/images/common/logo.svg" alt="Streetview.vn" style={{ width: '450px', marginRight: '10px'}} /></Link>
 
 
 
@@ -29,12 +29,12 @@ const Footer = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
 
           <div className="colorpft" style={{ flex: '1', minWidth: '300px', marginBottom: '20px' }}>
-            <h5> {t('Công ty TNHH Công Nghệ 44+')}</h5>
-          <a href="https://www.streetview.vn/?lat=21.032796623&lng=105.788024983&picId=e213daed-3ae2-4259-940b-444a4056c101&yaw=279&pitch=30" target="_blank"> <p><img src="/assets/location.png" alt="" /> {t('Toà nhà 44+, 12/1 Dịch Vọng Hậu, Cầu Giấy, Hà Nội')}</p></a> 
-           <a href="/contact"><p> <img src="/assets/Vector1.png" alt="" />  support@44plus.vn</p></a> 
-           <a href="tel:+84838777777"><p> <img src="/assets/call.png" alt="" /> +84-838-777-777</p></a> 
+            <h5> {t('Vovinam Thân-Tâm')}</h5>
+          <a href="https://maps.app.goo.gl/4cYXswZ2ToPTKHd96" target="_blank"> <p><img src="/assets/location.png" alt="" /> {t('Nhà thi đấu Bắc Từ Liêm, P. Võ Quý Huân, Phúc Diễn, Bắc Từ Liêm, Hà Nội')}</p></a> 
+           <a href="/contact"><p> <img src="/assets/Vector1.png" alt="" />  taitd2903@gmail.com</p></a> 
+           <a href="tel:+8333020903"><p> <img src="/assets/call.png" alt="" /> +84-333-020-903</p></a> 
             <p>{t('Giấy phép Cung cấp dịch vụ Viễn thông số: 47/GP-CVT')}</p>
-            <p>{t('MST')}: 0109884702</p>
+            <p>{t('MST')}: 00101010101</p>
           </div>
 
 
@@ -115,7 +115,7 @@ const Footer = () => {
           }}>
             <h4>{t('Kết nối')}</h4>
             {/* <p ><img src="/assets/logo-dmca1.png" alt="" /> DMCA</p> */}
-           <a href="https://www.facebook.com/44plusvn" target="_blank"><p><img src="/assets/leading.png" alt="" /> Facebook</p></a> 
+           <a href="https://www.facebook.com/vovinamthantam/" target="_blank"><p><img src="/assets/leading.png" alt="" /> Facebook</p></a> 
             <p><img src="/assets/leading1.png" alt="" /> Twitter</p>
           <a href="https://www.linkedin.com/company/44-plus/about/" target="_blank"><p><img src="/assets/LinkedIn1.png" alt="" /> LinkedIn</p></a>  
           </div>
@@ -127,7 +127,7 @@ const Footer = () => {
         <p style={{
           textAlign: 'center', fontSize: '14px', color: 'var(--Sys-On-surface-on-surface-variant-high, rgba(76, 81, 90, 1))'
         }}>
-          {t('© 2024 Streetview.vn Bản quyền được bảo hộ')}
+          {t('© 2025 Vovinam Thân-Tâm bản quyền được bảo hộ')}
          
         </p>
       </div>

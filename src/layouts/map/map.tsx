@@ -12,13 +12,13 @@ useEffect(() => {
 const map = new maplibregl.Map({
 container: mapContainerRef.current,
 style: 'https://tiles.openmap.vn/styles/day-v1/style.json',
-center: [105.787560, 21.032781],
-zoom: 18.34,
+center: [105.7484, 21.049003],
+zoom: 16,
 attributionControl: false,
 });
 
 const marker = new maplibregl.Marker()
-    .setLngLat([105.787912, 21.032766]) 
+    .setLngLat([105.75025832205867, 21.049003163902125]) 
     .addTo(map);
 
 return () => {

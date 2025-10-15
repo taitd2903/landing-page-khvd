@@ -23,8 +23,8 @@ const MapContactPage = () => {
         <div className="detailsmapall">
           <img src="/assets/44+.png" alt="44+ Technologies" />
           <div className="detailsmap">
-            <h2>Tòa nhà 44+ Technologies</h2>
-            <p>12 Ngõ 1 Dịch Vọng Hậu, phường Cầu Giấy, thành phố Hà Nội</p>
+            <h2>Vovinam Thân-Tâm</h2>
+            <p>Nhà thi đấu Bắc Từ Liêm, P. Võ Quý Huân, Phúc Diễn, Bắc Từ Liêm, Hà Nội</p>
             <div className="infomap">
               <p><strong>Thông tin</strong></p>
               <div className="mapbrd">
@@ -66,15 +66,15 @@ const MapContactPage = () => {
                 )}
                 <p className="callmap">
                   <img src="/assets/Leading element.svg" alt="" />{" "}
-                  <a href="tel:+84838777777">+84 777 005 444</a>
+                  <a href="tel:+84333020903">+84 333 020 903</a>
                 </p>
                 <p className="callmapw">
                   <a
-                    href="https://44plus.vn"
+                    href="https://www.facebook.com/vovinamthantam/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/assets/Globe.svg" alt="" /> 44plus.vn
+                    <img src="/assets/Globe.svg" alt="" /> Vovinam Thân-Tâm
                   </a>
                 </p>
               </div>
