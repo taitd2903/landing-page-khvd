@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
+
 import { Carousel } from "antd";
-import { useTranslation } from "react-i18next";
+
 import "./index.css";
 
 const Sliderhome = () => {
-  const { t } = useTranslation();
+
 
 
   const slides = [
@@ -27,17 +27,14 @@ const Sliderhome = () => {
 
   return (
     <div className="slider-home">
-      <Carousel autoplay effect="fade">
-        {slides.map((slide) => (
-          <div key={slide.id} className="slide-item">
-            <img src={slide.img} alt={slide.title} className="slide-image" />
-            <div className="slide-content">
-              <h2>{slide.title}</h2>
-              <p>{slide.desc}</p>
-            </div>
-          </div>
-        ))}
-      </Carousel>
+   <Carousel autoplay effect="fade">
+  {slides.map((slide) => (
+    <div key={slide.id} className="slide-item">
+      <img src={slide.img} alt={`slide-${slide.id}`} className="slide-image" />
+    </div>
+  ))}
+</Carousel>
+
     </div>
   );
 };

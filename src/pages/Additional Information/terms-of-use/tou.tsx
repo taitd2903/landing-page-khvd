@@ -6,7 +6,8 @@ import "./tou.css";
 
 const Documents = () => {
   const { t } = useTranslation();
-  const [content, setContent] = useState<string>("");
+  const [_, setContent] = useState<string>("");
+
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 

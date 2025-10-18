@@ -1,13 +1,13 @@
-import  { useState, useEffect } from "react";
+import  {  useEffect } from "react";
 import "./home.css";
 import Sliderhome from "./slider";
-import { useTranslation } from 'react-i18next';
+
 import Mainhome from "./main";
 
 
 const StreetView = () => {
 
-  const { t } = useTranslation();
+  
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
