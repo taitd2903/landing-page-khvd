@@ -16,9 +16,9 @@ const Header: React.FC = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const onOpenChange = (keys) => {
     const latestOpenKey = keys.find((key) => !openKeys.includes(key));
-    setOpenKeys(latestOpenKey ? [latestOpenKey] : []); // Chỉ mở menu mới nhất
+    setOpenKeys(latestOpenKey ? [latestOpenKey] : []);
   };
-  const [openKeys, setOpenKeys] = useState([]); // Quản lý các menu đang mở
+  const [openKeys, setOpenKeys] = useState([]); 
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
@@ -212,11 +212,17 @@ const Header: React.FC = () => {
           </Link>
         </div>
 
-        <Link to="/about" className={isActiveLink('/about') ? 'active' : ''}>
+        {/* <Link to="/about" className={isActiveLink('/about') ? 'active' : ''}>
           {t('Về chúng tôi')}
+        </Link> */}
+
+ <Link to="/about" className={isActiveLink('/about') ? 'active' : ''}>
+          {t('Viện nghiên cứu trò chơi giáo dục thể chất ')}
         </Link>
 
-        <Dropdown
+
+
+        {/* <Dropdown
   overlay={megaDropdownContent}
   trigger={['click']}
   placement="bottom"
@@ -240,18 +246,21 @@ const Header: React.FC = () => {
   >
     {t('Nguồn lực')} <img src="/assets/Iconmuiten.svg" alt="icon" className="dropdown-icon" />
   </a>
-</Dropdown>
+</Dropdown> */}
 
 
-        <a
+        {/* <a
           href="https://www.streetview.vn/"
           target="_blank"
           rel="noopener noreferrer"
           className={isActiveLink('/map') ? 'active' : ''}
         >
           {t('Bản đồ')}
-        </a>
+        </a> */}
 
+ <Link to="/phuongphapgiaoduc" className={isActiveLink('/phuongphapgiaoduc') ? 'active' : ''}>
+          {t('Phương pháp giáo dục Yasudas')}
+        </Link>
         <Link to="/contact" className={isActiveLink('/contact') ? 'active' : ''}>
           {t('Liên hệ')}
         </Link>

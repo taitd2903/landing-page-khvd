@@ -123,13 +123,13 @@ background: var(--Sys-Surface-container-surface-container-low, rgba(242, 244, 24
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 90px;
+  margin-left: 50px;
 
 }
 .header-menu {
   display: flex;
   align-items: center;
-  gap: 42px;
+  gap: 30px;
   margin: 0 auto;
 }
 
