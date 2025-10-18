@@ -106,10 +106,11 @@ const ContactPage = () => {
   value={formData.request || undefined} 
   onChange={(value) => handleInputChange("request", value)}
 >
-  <Option value="report">{t('Yêu cầu báo')}</Option>
+  <Option value="report">{t('Yêu cầu báo cáo')}</Option>
   <Option value="technical">{t('Tôi gặp vấn đề kỹ thuật')}</Option>
   <Option value="account">{t('Tôi có câu hỏi về tài khoản')}</Option>
   <Option value="other">{t('Vấn đề khác')}</Option>
+
 </Select>
 
             </Form.Item>
@@ -133,7 +134,7 @@ const ContactPage = () => {
                 className="submit-button"
                 disabled={!isFormValid()}
               >
-                Gửi
+              {t("Gửi")}  
               </Button>
             </Form.Item>
           </Form>

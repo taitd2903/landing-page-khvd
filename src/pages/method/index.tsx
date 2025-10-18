@@ -1,14 +1,9 @@
-import  { useState, useEffect } from "react";
-import "./home.css";
-import Sliderhome from "./slider";
-import { useTranslation } from 'react-i18next';
-import Mainhome from "./main";
+// @ts-nocheck
+import "./index.css";
+import { useEffect } from "react";
+import Mainabouts from "./main";
 
-
-const StreetView = () => {
-
-  const { t } = useTranslation();
-
+const Methodall = () => {
   useEffect(() => {
     const sections = document.querySelectorAll("section");
 
@@ -31,13 +26,18 @@ const StreetView = () => {
       sections.forEach((section) => observer.unobserve(section));
     };
   }, []);
-
   return (
     <>
-<Sliderhome />
-<Mainhome />
+      <div className='aboutusbanner'>
+        <img src="https://yasuda-method.com/wp/wp-content/uploads/2025/02/method_main-1536x480.jpg" alt="" />
+        <h1>Phương pháp giáo dục Yasuda</h1>
+      </div>
+
+      <Mainabouts />
+      <section className="imgmethod "><img src="https://yasuda-method.com/wp/wp-content/themes/yasuda/images/page/method.png" alt="" /></section>
+
     </>
   );
 };
 
-export default StreetView;
+export default Methodall;

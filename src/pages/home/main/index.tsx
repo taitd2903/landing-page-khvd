@@ -4,28 +4,7 @@ import { useTranslation } from "react-i18next";
 
 const Mainhome = () => {
   const { t } = useTranslation();
-  useEffect(() => {
-    const sections = document.querySelectorAll("section");
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-          } else {
-            entry.target.classList.remove("show");
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
   return (
     <div className="mainhome-wrapper">
       {/* Hero */}

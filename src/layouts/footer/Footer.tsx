@@ -40,14 +40,14 @@ const Footer = () => {
 
           <div className="colorpft clftmg" style={{ flex: '1', minWidth: '300px', marginBottom: '20px' }}>
             <h4>{t('Thông tin cần biết')}</h4>
-            <a
+            {/* <a
               href="https://www.streetview.vn/"
               className={isActiveLink("/map") ? "active" : ""}
               
               target="_blank"
             >
               <p>{t("Bản đồ")}</p>
-            </a>
+            </a> */}
             <Link
               to="/pricing"
               className={isActiveLink("/pricing") ? "active" : ""}

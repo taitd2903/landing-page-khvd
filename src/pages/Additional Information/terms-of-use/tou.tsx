@@ -1,7 +1,7 @@
 import  { useEffect, useState } from "react";
 import axios from "axios";
 import { useTranslation } from "react-i18next";
-import Banner from "./banner/bannerab";
+
 import "./tou.css";
 
 const Documents = () => {
@@ -30,16 +30,7 @@ const Documents = () => {
   if (error) return <p>{t(error)}</p>;
 
   return (
-    <div className="container ctncsbm">
-      <Banner/>
-      <div className="documentspro">
-
-        <div
-          className="documents-content"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      </div>
-    </div>
+<>  </>
   );
 };
 

@@ -333,57 +333,65 @@ const Header: React.FC = () => {
       </div>
       <Menu
         mode="inline"
-        openKeys={openKeys} // Gắn trạng thái mở của menu
-        onOpenChange={onOpenChange} // Sự kiện khi menu mở/đóng
-        onClick={toggleDrawer} // Đóng Drawer khi chọn menu
+        openKeys={openKeys} 
+        onOpenChange={onOpenChange} 
+        onClick={toggleDrawer} 
         items={[
           {
             key: '1',
             label: (
               <Link to="/about" className={isActiveLink('/about') ? 'active' : ''}>
-                {t('Về chúng tôi')}
+                {t('Viện nghiên cứu trò chơi giáo dục thể chất ')}
               </Link>
             ),
           },
-          {
-            key: '2',
-            label: <span>{t('Dịch vụ')}</span>,
-            children: [
-              { key: '2-1', label: <Link to="/service/3d-images">{t('Hình ảnh 3D')}</Link> },
-              { key: '2-2', label: <Link to="/service/street-view">{t('Chế độ xem phố')}</Link> },
-              { key: '2-3', label: <Link to="/service/static-map">{t('Bản đồ tĩnh')}</Link> },
-              { key: '2-5', label: <Link to="/service/map-dataset">{t('Bộ dữ liệu bản đồ')}</Link> },
-              { key: '2-6', label: <Link to="/service/auto-fill">{t('Tự động điền')}</Link> },
-              { key: '2-7', label: <Link to="/service/geolocation">{t('Vị trí địa lý')}</Link> },
-            ],
-          },
-          {
-            key: '3',
-            label: <span>{t('Giải pháp')}</span>,
-            children: [
-              { key: '3-1', label: <Link to="/solution/immersive-experience">{t('Trải nghiệm nhập vai')}</Link> },
-              { key: '3-2', label: <Link to="/solution/open-data#services">{t('Dữ liệu mở')}</Link> },
-              { key: '3-3', label: <Link to="/solution/ideal-location">{t('Vị trí lý tưởng')}</Link> },
-              { key: '3-4', label: <Link to="/solution/object-detection">{t('Phát hiện phân tích đối tượng')}</Link> },
-              { key: '3-5', label: <Link to="/solution/self-driving">{t('Giải pháp xe tự hành')}</Link> },
-              { key: '3-6', label: <Link to="/solution/grid-management">{t('Quản lý mạng lưới điện')}</Link> },
-              { key: '3-7', label: <Link to="/solution/tax-management">{t('Quản lý thuế')}</Link> },
-            ],
-          },
-          {
-            key: '4',
-            label: <span>{t('Nguồn lực')}</span>,
-            children: [
-              { key: '4-1', label: <Link to="/openmap">{t('Openmap.vn')}</Link> },
-              // { key: '4-2', label: <Link to="/openstreetmap">{t('OpenStreetMap')}</Link> },
-            ],
-          },
-          {
+          // {
+          //   key: '2',
+          //   label: <span>{t('Dịch vụ')}</span>,
+          //   children: [
+          //     { key: '2-1', label: <Link to="/service/3d-images">{t('Hình ảnh 3D')}</Link> },
+          //     { key: '2-2', label: <Link to="/service/street-view">{t('Chế độ xem phố')}</Link> },
+          //     { key: '2-3', label: <Link to="/service/static-map">{t('Bản đồ tĩnh')}</Link> },
+          //     { key: '2-5', label: <Link to="/service/map-dataset">{t('Bộ dữ liệu bản đồ')}</Link> },
+          //     { key: '2-6', label: <Link to="/service/auto-fill">{t('Tự động điền')}</Link> },
+          //     { key: '2-7', label: <Link to="/service/geolocation">{t('Vị trí địa lý')}</Link> },
+          //   ],
+          // },
+          // {
+          //   key: '3',
+          //   label: <span>{t('Giải pháp')}</span>,
+          //   children: [
+          //     { key: '3-1', label: <Link to="/solution/immersive-experience">{t('Trải nghiệm nhập vai')}</Link> },
+          //     { key: '3-2', label: <Link to="/solution/open-data#services">{t('Dữ liệu mở')}</Link> },
+          //     { key: '3-3', label: <Link to="/solution/ideal-location">{t('Vị trí lý tưởng')}</Link> },
+          //     { key: '3-4', label: <Link to="/solution/object-detection">{t('Phát hiện phân tích đối tượng')}</Link> },
+          //     { key: '3-5', label: <Link to="/solution/self-driving">{t('Giải pháp xe tự hành')}</Link> },
+          //     { key: '3-6', label: <Link to="/solution/grid-management">{t('Quản lý mạng lưới điện')}</Link> },
+          //     { key: '3-7', label: <Link to="/solution/tax-management">{t('Quản lý thuế')}</Link> },
+          //   ],
+          // },
+          // {
+          //   key: '4',
+          //   label: <span>{t('Nguồn lực')}</span>,
+          //   children: [
+          //     { key: '4-1', label: <Link to="/openmap">{t('Openmap.vn')}</Link> },
+          //     // { key: '4-2', label: <Link to="/openstreetmap">{t('OpenStreetMap')}</Link> },
+          //   ],
+          // },
+          // {
+          //   key: '5',
+          //   label: (
+          //     <a href="https://www.streetview.vn/" target="_blank" rel="noopener noreferrer">
+          //       {t('Bản đồ')}
+          //     </a>
+          //   ),
+          // },
+           {
             key: '5',
             label: (
-              <a href="https://www.streetview.vn/" target="_blank" rel="noopener noreferrer">
-                {t('Bản đồ')}
-              </a>
+              <Link to="/phuongphapgiaoduc" className={isActiveLink('/phuongphapgiaoduc') ? 'active' : ''}>
+                {t('Phương pháp giáo dục Yasudas')}
+              </Link>
             ),
           },
           {

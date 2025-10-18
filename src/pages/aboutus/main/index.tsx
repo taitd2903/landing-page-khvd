@@ -6,28 +6,7 @@ const Mainabouts = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  useEffect(() => {
-    const sections = document.querySelectorAll("section");
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show");
-          } else {
-            entry.target.classList.remove("show");
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
   return (
     <div className="about-wrapper">
       {/* === PHẦN TIÊU ĐỀ === */}
@@ -54,7 +33,7 @@ const Mainabouts = () => {
 
       {/* === PHƯƠNG PHÁP GIÁO DỤC === */}
       <section className="yasuda-method">
-        <h2>Phương pháp giáo dục Yasuda</h2>
+        <h1>Phương pháp giáo dục Yasuda</h1>
         <p>
           Nhà giáo dục Yuji Yasuda đã sáng tạo ra phương pháp này dựa trên nhiều năm kinh nghiệm
           trong lĩnh vực chăm sóc và giáo dục trẻ em, với mục tiêu chính là thúc đẩy sự phát triển
@@ -68,7 +47,7 @@ const Mainabouts = () => {
       {/* === HỒ SƠ GIÁM ĐỐC === */}
 <section className="director-section">
   <div className="director-title">
-    <h2>H ồ  s ơ   G i á m   đ ố c</h2>
+    <h1>Hồ sơ giám đốc</h1>
   </div>
 
   <div className="director-card">
@@ -111,13 +90,9 @@ const Mainabouts = () => {
       <section className="message-section">
        <div className="message-left">
   <div className="message-label">Message</div>
-  <h2>
-    Bởi nếu bạn đam mê
-    <br />
-    vì nó, bạn sẽ phát triển
-    <br />
-    một cách tự vui, nhiên.
-  </h2>
+  <h1>
+    Bởi nếu bạn đam mê vì nó, bạn sẽ phát triển một cách tự vui, nhiên. Bởi nếu bạn đam mê vì nó, bạn sẽ phát triển một cách tự vui, nhiên
+  </h1>
 
   <p>
     Xin chào. Tôi là Iseki, giám đốc Viện Nghiên cứu Trò chơi Giáo dục Thể chất Yasuda.

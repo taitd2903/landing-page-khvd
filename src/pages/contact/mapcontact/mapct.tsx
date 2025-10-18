@@ -21,7 +21,7 @@ const MapContactPage = () => {
     <>
       <div className="cardmap">
         <div className="detailsmapall">
-          <img src="/assets/44+.png" alt="44+ Technologies" />
+          <img src="https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/554865255_1482012389656574_8070788854715882454_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9HgPfiAR1vwQ7kNvwFKiTXM&_nc_oc=AdkigMG5DwOkPcWy6U56as6aXtNatayTtiWISk24zKLD3AeC0AF1Ai299HUARVu8LFF_3Zw06fpKmYMgEvE1c9Hi&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Jgw4dn8Y--nJQ7yfn8bcLQ&oh=00_AffmdTs7O7J1cOclFXT0Xpc3HGFELNmL_UZEcvfLb1nqKg&oe=68FA03ED" alt="44+ Technologies" />
           <div className="detailsmap">
             <h2>Vovinam Thân-Tâm</h2>
             <p>Nhà thi đấu Bắc Từ Liêm, P. Võ Quý Huân, Phúc Diễn, Bắc Từ Liêm, Hà Nội</p>
